@@ -1,0 +1,72 @@
+/*é¡¶éƒ¨é€šæ éƒ¨åˆ†*/
+html,body,.container{
+    height: 100%;
+}
+
+/*ä¸»è¦éƒ¨åˆ†*/
+.category{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.category .cate-left{
+    width: 90px;
+    height: 100%;
+    position: absolute;
+    z-index: 999;
+}
+.category .cate-left ul li {
+    float: left;
+    width: 90px;
+    height: 50px;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+    background-color: #f3f4f6;
+    line-height: 50px;
+}
+.category .cate-left ul .active {
+    border-right: 0;
+    background-color: #fff;
+}
+
+.category .cate-right{
+    width: 100%;
+    padding-left: 90px;
+    position: absolute;
+
+}
+
+.category .cate-right .cate-r-box{
+    width: 100%;
+    padding: 12px;
+}
+.category .cate-right .cate-r-box>img{
+    width: 100%;
+
+}
+.category .cate-right .cate-r-box .cate-pro-til{
+    height: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.category .cate-right .cate-r-box .cate-pro-til h3{
+    line-height: 20px;
+    color: #888;
+}
+
+.category .cate-right .cate-r-box ul li{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.category .cate-right .cate-r-box ul li img{
+    display: block;
+    width: 62px;
+    height: 62px;
+    margin: 0 auto;
+}
+

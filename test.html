@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <meta name="viewport"
+          content="width=device-width,user-scalable=no, initial-scale=0.8"/>
+    <style>
+        div{
+            width: 500px;
+            height: 500px;
+            background-color: #369;
+        }
+    </style>
+    <script>
+    window.onload = function(){
+        var banner = document.getElementsByClassName("banner")[0];
+        var startX,endX,all_translateX;
+        banner.addEventListener("touchstart",function(e){
+            startX = e.targetTouches[0].clientX;
+
+        });
+        banner.addEventListener("touchmove",function(e){
+            endX = e.targetTouches[0].clientX;
+            all_translateX = endX - startX;
+//            console.log(all_translateX);
+//            setTransform(all_translateX);
+            banner.style.transform = "translateX("+all_translateX+"px)";
+        });
+    }
+    </script>
+</head>
+<body>
+<div class="banner"></div>
+</body>
+</html>

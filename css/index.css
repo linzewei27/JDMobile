@@ -1,0 +1,285 @@
+/*.container{*/
+    /*height: 800px;*/
+    /*background-color: #000000;*/
+/*}*/
+
+/*mainÃ¤ÂºÂ§Ã¥â€œÂÃ¥â€¦Â¬Ã¥â€¦Â±Ã©Æ’Â¨Ã¥Ë†â€ */
+.all-product{
+    width: 100%;
+    padding: 0 5px;
+}
+.all-product .jd-product{
+    width: 100%;
+    margin-top: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 1px 1px #e0e0e0;
+}
+.all-product .jd-product .jd-product-header{
+    height: 32px;
+    width: 100%;
+    border-bottom:1px solid #e0e0e0;
+    position: relative;
+}
+.all-product .jd-product .jd-product-header h3{
+    line-height: 32px;
+    font-weight: normal;
+    margin-left: 15px;
+}
+.all-product .jd-product .jd-product-header h3::before{
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 10px;
+    width: 3px;
+    height: 12px;
+    background-color: #d8505c;
+}
+.all-product .jd-product .jd-product-header.no-border{
+    border: 0;
+}
+
+/*bodyÃ§Å¡â€žÃ¨Æ’Å’Ã¦â„¢Â¯*/
+body{
+    background-color: #f5f5f5;
+}
+
+/*Ã¥Â¤Â´Ã©Æ’Â¨Ã¦ÂÅ“Ã§Â´Â¢Ã¦Â¡â€ */
+.jd-header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 40px;
+    z-index: 999;
+
+}
+.jd-header .jd-header-box{
+    min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+    background: rgba(201,21,35,0);
+    height: 40px;
+}
+.jd-header .icon-logo{
+    background-position:0 -103px;
+    width: 60px;
+    height: 36px;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+}
+.jd-header form{
+    width: 100%;
+    position: absolute;
+    top: 5px;
+    padding: 0 60px 0 75px;
+}
+.jd-header form input{
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 30px;
+}
+.jd-header form::before{
+    content: "";
+    background: url(../images/sprites.png) no-repeat;
+    background-size: 200px 200px;
+    background-position:-60px -109px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    left: 85px;
+}
+.jd-header .login{
+    color: #fff;
+    position: absolute;
+    right: 11px;
+    top: 6px;
+    font-size: 18px;
+}
+/*Ã¨Â½Â®Ã¦â€™Â­Ã¥â€ºÂ¾*/
+.jd-banner{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.jd-banner ul.pic{
+    width: 1000%;
+    transform: translateX(-10%);
+}
+.jd-banner ul.pic li{
+    width: 10%;
+    float: left;
+}
+.jd-banner ul.pic li img{
+    width: 100%;
+    display: block;
+}
+
+.jd-banner ul.circle{
+    width: 118px;
+    height: 6px;
+    position: absolute;
+    bottom: 11px;
+    left: 50%;
+    margin-left: -58px;
+}
+
+.jd-banner ul.circle li{
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    float: left;
+    border: 1px solid #fff;
+    margin-left: 8px;
+}
+.jd-banner ul.circle li.active{
+   background-color: #fff;
+}
+
+/*Ã¥Â¯Â¼Ã¨Ë†ÂªÃ©Æ’Â¨Ã¥Ë†â€ */
+.jd-nav{
+    width: 100%;
+    height: 150px;
+    padding: 15px 20px 0;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #fff;
+ }
+.jd-nav ul{
+    width: 100%;
+}
+.jd-nav ul li{
+    height: 69px;
+    float: left;
+    width: 25%;
+
+}
+.jd-nav ul li a{
+    display: block;
+    text-align: center;
+}
+.jd-nav ul li a img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+.jd-nav ul li a span{
+    display: block;
+    margin: 0 auto;
+    color: #666;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+/*Ã¦Å½Å’Ã¤Â¸Å Ã§Â§â€™Ã¦Ââ‚¬Ã©Æ’Â¨Ã¥Ë†â€ */
+.all-product  .sk .jd-product-header .sk-left h4{
+    float: left;
+    color: #d8505c;
+    line-height: 32px;
+     margin: 0 0 0 5px;
+    font-weight: inherit;
+}
+.all-product  .sk .jd-product-header::before{
+    content: "";
+    float: left;
+    margin: 5px 0 0 10px;
+    /*left: 0px;*/
+    /* top: 0; */
+    background: url(../images/seckill-icon.png) no-repeat;
+    background-size: 16px 20px;
+    width: 16px;
+    height: 20px;
+}
+.all-product  .sk .jd-product-header .sk-left div{
+    float: left;
+    margin: 0 0 0 10px;
+}
+.all-product  .sk .jd-product-header .sk-left div span{
+    float: left;
+    line-height: 15px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+.all-product  .sk .jd-product-header .sk-left div span.num{
+    background: #333;
+    margin-left: 3px;
+    color: #fff;
+}
+.all-product  .sk .jd-product-header .sk-left div span.str{
+    width: 8px;
+}
+.all-product .sk-right{
+    float: right;
+    margin: 5px 10px 0 0;
+}
+
+/*ç§’æ€å†…å®¹*/
+.all-product  .sk .jd-product-content{
+    padding: 10px 0;
+    width: 100%;
+}
+.all-product  .sk .jd-product-content ul{
+    width: 100%;
+}
+.all-product  .sk .jd-product-content li{
+    float: left;
+    width: 33.333%;
+    text-align: center;
+}
+
+.all-product  .sk .jd-product-content a{
+    text-align: center;
+}
+.all-product  .sk .jd-product-content a img{
+    display: block;
+    margin: 0 auto;
+    width: 134px;
+    height: 134px;
+}
+.all-product  .sk .jd-product-content .img-box{
+    border-left: 1px solid #e0e0e0;
+}
+.all-product  .sk .jd-product-content a .now-price{
+    display: block;
+    text-align: center;
+    color: #d8505c;
+}
+.all-product  .sk .jd-product-content a .old-price{
+    display: block;
+    text-align: center;
+    text-decoration: line-through;
+    color: #666;
+}
+.all-product .jd-pd .jd-product-content {
+    width: 100%;
+}
+.all-product .jd-pd .jd-product-content  .pd-left{
+    float: left;
+    width: 50%;
+    border-right: 1px solid #e0e0e0;
+}
+.all-product .jd-pd .jd-product-content  .pd-right{
+    float:  right;
+    width: 50%;
+}
+.all-product .jd-pd  .jd-product-content .pd-top{
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+}
+.all-product .jd-pd  .jd-product-content .pd-bottom{
+    float: left;
+    width: 100%;
+}
+.all-product .jd-pd .jd-product-content  a{
+    display: block;
+}
+.all-product .jd-pd .jd-product-content  a img{
+    width: 100%;
+    display: block;
+}

@@ -1,0 +1,306 @@
+body{
+    background-color: #f5f5f5;
+    /* height: 1000px; */
+}
+.bar-top h2{
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: inherit;
+    line-height: 44px;
+}
+.safe-tips{
+    height: 34px;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+}
+.safe-tips p{
+    display: inline-block;
+    position: relative;
+    line-height: 34px;
+
+}
+.safe-tips p::before{
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background-image: url(../images/safe_icon.png);
+    background-size: 18px 18px;
+    left: -20px;
+    top: 7px;
+}
+.jd-all-pro{
+    padding-bottom: 58px;
+}
+.jd-shop{
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.title-check{
+    position: relative;
+    float: left;
+    width: 40px;
+    height: 36px;
+}
+
+.title-check  .check-box{
+    left: 10px;
+    top: 8px;
+}
+.title-content {
+    padding-left: 40px;
+    line-height: 36px;
+}
+.title-content .shop-left{
+    float: left;
+    /* color: #d8505c; */
+    position: relative;
+ }
+
+.title-content .shop-left span{
+    margin-left: 20px;
+}
+.title-content .shop-left::before{
+    content: "";
+    background: url(../images/buy-logo.png);
+    background-size: 15px 15px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 10px;
+}
+.title-content .shop-right{
+    float: right;
+    margin-right:10px;
+}
+
+
+
+
+.shop-detial .det-check{
+    width: 40px;
+    height: 100px;
+    float: left;
+}
+.shop-detial .det-check .check-box{
+    margin: 40px 8px;
+}
+.shop-detial .det-content{
+
+}
+.shop-detial .det-content img{
+    border: 1px solid #e0e0e0;
+    display: block;
+    width: 78px;
+    height: 78px;
+    float: left;
+}
+.shop-detial .det-content .det-cont-info{
+    /* float: left; */
+    width: 100%;
+    padding-left: 140px;
+}
+.shop-detial .det-content .det-cont-info .name{
+    display: block;
+    height: 30px;
+    line-height: 15px;
+    font-size: 13px;
+    overflow: hidden;
+}
+.shop-detial .det-content .det-cont-info>span{
+    display: block;
+    height: 30px;
+    line-height: 15px;
+    font-size: 13px;
+    overflow: hidden;
+}
+.shop-detial .det-content .det-cont-info .change{
+ float: left;
+ width: 100%;
+}
+.shop-detial .det-content .det-cont-info .change-num{
+    float: left;
+
+}
+.shop-detial .det-content .det-cont-info .change-num .less{
+    width: 32px;
+    height: 24px;
+    float: left;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+ }
+.shop-detial .det-content .det-cont-info .change-num input{
+    width: 32px;
+    height: 24px;
+    float: left;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.shop-detial .det-content .det-cont-info .change-num .more{
+    width: 32px;
+    height: 24px;
+    float: left;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+}
+.shop-detial .det-content .det-cont-info .delet{
+    float: right;
+    margin-right: 20px;
+
+}
+.shop-detial .det-content .det-cont-info .delet .del-top{
+    width: 20px;
+    height: 5px;
+    background: url(../images/delete_up.png);
+    background-size: 20px 5px;
+    margin-left: -1px;
+}
+.shop-detial .det-content .det-cont-info .delet .del-bottom{
+    width: 18px;
+    height: 18px;
+    background: url(../images/delete_down.png);
+    background-size: 18px 18px;
+    margin-top:-2px;
+}
+
+
+.account{
+    height: 57px;
+    position: fixed;
+    bottom: 0;
+    background-color:rgba(0,0,0,.8);
+    width: 100%;
+    color:#fff;
+}
+.account .acc-check{
+    width: 60px;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+.account .acc-check .check-box{
+    position: absolute;
+    left: 10px;
+    top: 19px;
+}
+.account .acc-check label{
+    position: absolute;
+    right: 0;
+    top: 19px;
+}
+.acc-info {
+    width: 100%;
+    margin-left: 70px;
+    margin-top: 8px;
+}
+.acc-info  h4{
+    font-size:16px
+}
+.acc-submit{
+    position:absolute;
+    right:0;
+    top: 0;
+    width:116px;
+    height:57px;
+    background-color: #d8505c;
+}
+.acc-submit a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 57px;
+    font-size: 16px;
+}
+.acc-submit a span{
+    font-size: 12px;
+}
+
+.delete-product{
+    display: none;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.4);
+    color: #666;
+}
+.delete-product .delete-product-window{
+    margin : 10% auto;
+    width: 30%;
+    background: #fff;
+    border-radius: 4px;
+}
+.delete-product .delete-product-window .dpw-info{
+    text-align: center;
+    height:60px;
+    line-height:60px;
+    border-bottom:1px solid #e0e0e0;
+    margin: 0 10px;
+
+}
+.delete-product .delete-product-window .dpw-button{
+    padding:10px 20px;
+    width:100%
+}
+.delete-product .delete-product-window .dpw-button a{
+   display:block;
+   width:45%;
+   height:36px;
+   line-height: 36px;
+   float:left;
+   text-align:center;
+   border-radius: 4px;
+   margin: 0 auto;
+    cursor: pointer;
+}
+.delete-product .delete-product-window .dpw-button a.confirm{
+     color:#fff;
+     background-color:#f15353;
+}
+.delete-product .delete-product-window .dpw-button a.cancel{
+     border:1px solid #e0e0e0;
+     color:#666;
+    margin-left: 8%;
+}
+@keyframes winIn{
+    0%{
+        opacity: 0.2;
+        -webkit-transform: translateY(-2000px);
+        -moz-transform: translateY(-2000px);
+        -ms-transform: translateY(-2000px);
+        -o-transform: translateY(-2000px);
+        transform: translateY(-2000px);
+    }
+    60%{
+        opacity: 1;
+        -webkit-transform: translateY(100px);
+        -moz-transform: translateY(100px);
+        -ms-transform: translateY(100px);
+        -o-transform: translateY(100px);
+        transform: translateY(100px);
+    }
+    80%{
+        opacity: 1;
+        -webkit-transform: translateY(-20px);
+        -moz-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        -o-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
+    }
+}
+
